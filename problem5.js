@@ -1,11 +1,14 @@
 const P5 =(data)=>{
-    let array = []
-    data.filter(function(cars){
-    if(cars.car_year < 2000){
-        array.push(cars.car_year)
-    }
-    });
-    return array
+    //let array = []
+    if (inventory.length === 0){
+        return inventory
+      }
+    let result = data.filter(function(cars){
+        if(cars.car_year < 2000){
+            return (cars.car_year)
+        }
+        });
+    return result
 }
 
 module.exports = {P5}
