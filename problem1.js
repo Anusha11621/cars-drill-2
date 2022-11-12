@@ -5,7 +5,7 @@
 
 
 
-function P1(data){
+function problem1(data){
     if (inventory.length === 0){
         return inventory
       }
@@ -15,5 +15,5 @@ function P1(data){
 
 
 
-module.exports= {P1}
+module.exports= {problem1}
 

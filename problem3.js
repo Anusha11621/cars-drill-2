@@ -1,7 +1,7 @@
 
 
 
-const P3 =(data)=>{
+const problem3 =(data)=>{
     if (inventory.length === 0){
         return inventory
       }
@@ -11,4 +11,4 @@ return array.sort()
 }
 
 
-module.exports = {P3}
+module.exports = {problem3}

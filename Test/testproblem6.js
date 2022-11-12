@@ -1,8 +1,6 @@
 const data = require("../cars.json");
-const {P6} = require("../problem6");
+const {problem6} = require("../problem6");
 
-console.log(P6(data))
+console.log(problem6(data))
 
 
-//json.parse
-//json.stringfy

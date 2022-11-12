@@ -1,4 +1,4 @@
 const data = require("../cars.json");
-const {P3} = require("../problem3");
+const {problem3} = require("../problem3");
 
-console.log(P3(data))
+console.log(problem3(data))

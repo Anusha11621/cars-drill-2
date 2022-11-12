@@ -1,4 +1,4 @@
-function P4(data){
+function problem4(data){
     if (inventory.length === 0){
         return inventory
       }
@@ -7,4 +7,4 @@ function P4(data){
     return (array)
 }
 
-module.exports = {P4}
+module.exports = {problem4}

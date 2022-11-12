@@ -1,4 +1,4 @@
-const P5 =(data)=>{
+const problem5 =(data)=>{
     //let array = []
     if (inventory.length === 0){
         return inventory
@@ -11,4 +11,4 @@ const P5 =(data)=>{
     return result
 }
 
-module.exports = {P5}
+module.exports = {problem5}

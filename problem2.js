@@ -1,4 +1,4 @@
-function P2 (data){
+function problem2 (data){
     if (inventory.length === 0){
         return inventory
       }
@@ -6,4 +6,4 @@ function P2 (data){
     return (`"Last car is a ${lastcar.car_make} ${lastcar.car_model}"`)
 }
 
-module.exports = {P2}
+module.exports = {problem2}
